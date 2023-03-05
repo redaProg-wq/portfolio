@@ -1,0 +1,95 @@
+/* Surcouche style CSS */
+
+/* stylisation du header */
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: large;
+  color: white;
+  justify-content: flex-start;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.header ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Stylisation de la page d'acceuil*/
+.mainAcceuil {
+  height: 700px;
+  background-image: url(./ordinateur_noir.jpg);
+  background-size: cover;
+}
+
+.contenuAcceuil {
+  padding-top: 100px;
+}
+
+.boutonAcceuil a {
+  text-decoration: none;
+  color: white;
+}
+
+.boutonAcceuilDeux a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Stylisation de la page formation*/
+
+.mainPresentations {
+  background-image: url(./ordinateur_sympa.avif);
+  background-size: cover;
+  height: 700px;
+}
+
+.boutonsCompetences {
+  padding-top: 5%;
+  padding-left: 10%;
+  display: flex;
+
+  position: relative;
+}
+
+.cv {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+
+/*Stylisation de la page realisations*/
+.mainRealisations {
+  background-color: black;
+
+  min-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainRealisations h1 {
+  color: white;
+}
+
+.realisations {
+  margin: 10%;
+}
+
+/*stylisation de la page recommandations et avis*/
+.mainRecommandations {
+  background-image: url(./fonds_blanc.jpg);
+  min-height: 700px;
+}
