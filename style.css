@@ -90,6 +90,53 @@
 
 /*stylisation de la page recommandations et avis*/
 .mainRecommandations {
-  background-image: url(./fonds_blanc.jpg);
+  background-color: white;
   min-height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommandations {
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommandation {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+}
+
+/*stylisation de la page de contacts */
+
+.mainContacts {
+  background-color: black;
+  min-height: 700px;
+  display: block;
+}
+.mainContacts h1 {
+  color: white;
+}
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.contactsContenu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+.carteContacts {
+  margin-left: 5%;
+}
+
+.contactsContenu p {
+  color: white;
+  margin-left: 5%;
+}
+
+.contactsContenu h2 {
+  color: white;
 }
