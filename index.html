@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head >
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,149 +22,188 @@
   </head>
   <body>
     <header class="header fixed-top">
-      <h1>Reda Romain Mekouar Développement</h1>
+      <h1 id="titreAcceuil">Reda Romain Mekouar Développement</h1>
       <ul class="nav justify-content-end">
-        <li><a href="index.html">Acceuil</a></li>
-        <li><a href="">Presentations</a></li>
-        <li><a href="">Réalisations</a></li>
-        <li><a href="">Recommandations</a></li>
-        <li><a href="">Contacts & Devis</a></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#titrePresentations">Présentations</a></li>
+        <li><a href="#titreRealisations">Réalisations</a></li>
+        <li><a href="#titreRecommandations">Recommandations</a></li>
+        <li><a href="#titreContacts">Contacts & Devis</a></li>
       </ul>
     </header>
     <main>
-        <div class ="container-fluid mainAcceuil">
-            <div class="contenuAcceuil">
-      <p>
-        <h1>Réda Romain Mekouar</h1> 
-        Développement web et Web Mobile <br /> à Saint-Etienne 
-        et partout dans le monde
-      </p>
-     
-      
-
-      <button class="boutonAcceuil btn btn-dark"><a href="">Découvrez mes services</a></button>
-      <button class="boutonAcceuilDeux btn btn-dark"><a href="">Decouvrez mes réalisations</a>
-        </button>
-    </div>
-    </div>
-
-    <div class="container-fluid mainPresentations">
-
-        <H1 >Présentations </H1> <br>
-        
-        <div class="boutonsCompetences">
-        <div class="btn-group-vertical">
-            <button class="boutonAcceuil btn btn-dark"> Html & css</button>
-            <button class="boutonAcceuil btn btn-dark"> Bootstrap & responsive </button>
-           
+      <!-- Html de la page d'acceuil-->
+      <div class="container-fluid mainAcceuil">
+        <div class="contenuAcceuil">
+          <h1>Réda Romain Mekouar</h1>
+          <p>
+            Développement web et Web Mobile <br />
+            à Saint-Etienne et partout dans le monde
+          </p>
         </div>
+      </div>
 
-        <div class="btn-group-vertical">
-            <button class="boutonAcceuil btn btn-dark">Perfectioniste et pointilleux</button>
-            <button class="boutonAcceuil btn btn-dark"> Sociable </button>
-            <button class="boutonAcceuil btn btn-dark"> Créatif et Innovant </button>
-            <button class="boutonAcceuil btn btn-dark"> Motivation lvl : 100% </button>
+      <div class="container-fluid mainPresentations">
+        <!-- Html de la page presentation-->
 
+        <h1 id="titrePresentations">Présentations</h1>
+        <br />
 
-        </div> 
-        </div>
-
-        <button class="boutonAcceuil btn btn-dark cv"><a href="">Mon Curriculum Vitae en Ligne</a></button>
-        
-         
-      
-    </div>
-
-    <div class="container-fluid mainRealisations">
-        <h1>Réalisations</h1>
-   
-          <div class="realisations">
-            <div class="card" style="width: 18rem;">
-              <img src="./it'scoming.jpg" class="card-img-top" alt="ça arrive en anglais ">
-              <div class="card-body">
-                <h5 class="card-title">Réda Romain Mekouar Hypnothérapie</h5>
-                <p class="card-text">L'interface web dédiée à mes services d'hypnothérapie</p>
-                <a href="#" class="btn btn-dark btn-primary">En cours de réalisation</a>
-              </div>
-            </div>
-             
+        <div class="boutonsCompetences boutonsPresentation">
+          <div class="btn-group-vertical">
+            <button class="boutonAcceuil btn btn-dark" id="btn1">
+              Html & css
+            </button>
+            <button class="boutonAcceuil btn btn-dark" id="btn2">
+              Bootstrap & responsive
+            </button>
           </div>
 
-          <div class="realisations">
-            <div class="card" style="width: 18rem;">
-              <img src="./it'scoming.jpg" class="card-img-top" alt="ça arrive en anglais ">
-              <div class="card-body">
-                <h5 class="card-title">Greg Latinos</h5>
-                <p class="card-text">L'interface web  wordpress dédiée au groupe de musique sud-americaine de l'artiste Greg</p>
-                <a href="#" class="btn btn-dark btn-primary">En cours de réalisation</a>
-              </div>
-            </div>
-             
+          <div class="btn-group-vertical boutonsPresentation">
+            <button class="boutonAcceuil btn btn-dark" id="btn3">
+              Perfectioniste et pointilleux
+            </button>
+            <button class="boutonAcceuil btn btn-dark" id="btn4">
+              Sociable
+            </button>
+            <button class="boutonAcceuil btn btn-dark" id="btn5">
+              Créatif et Innovant
+            </button>
+            <button class="boutonAcceuil btn btn-dark" id="btn6">
+              Motivation lvl : 100%
+            </button>
           </div>
-
-          <div class="realisations">
-            <div class="card" style="width: 18rem;">
-              <img src="./it'scoming.jpg" class="card-img-top" alt="ça arrive en anglais ">
-              <div class="card-body">
-                <h5 class="card-title">L.Parent Ingenieur pédagogique</h5>
-                <p class="card-text">L'interface web dédiée à L.Parent, ingénieure pédagogique en freelance</p>
-                <a href="#" class="btn btn-dark btn-primary">En cours de réalisation</a>
-              </div>
-            </div>
-             
-          </div>
-
-
-
-    </div>
-
-<div class="container-fluid mainRecommandations">
-    <h1>Recommandations et avis</h1>
-
-    <div class="container-fluid recommandations">
-
-      <div class="card recommandation" style="width: 18rem;">
-        <img src="./loading.png" class="card-img-top" alt="recommandation">
-        <div class="card-body">
-          <p class="card-text">Les premières recommandations arriveront... Vite! Patience!</p>
         </div>
 
-      
-    </div>
+        <a
+          href="./CV Réda Romain Mekouar v3.pdf"
+          class="btn cv btn-dark"
+          target="_blank"
+          >Mon CV en ligne</a
+        >
+      </div>
+      <!-- html de la page realisations-->
 
-  </div>
-    
-</div>
+      <div class="container-fluid mainRealisations">
+        <h1 id="titreRealisations">Réalisations</h1>
 
-<div class="container-fluid mainContacts">
-  <h1>Contacts et Demande de Devis</h1>
-<div class=" contactsContenu">
-  <div class="card carteContacts" style="width: 18rem;">
-    <img src="./Reda_Mekouar.jpg" class="card-img-top" alt="photo personelle">
-    <div class="card-body">
-      <h5 class="card-title">Reda Romain Mekouar</h5>
-    
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">mail : rdamekoua@gmail.com</li>
-      <li class="list-group-item">0606962667</li>
-      
-    </ul>
-    <div class="card-body">
-      <a href="https://www.linkedin.com/in/reda-romain-mekouar-7b5b86251/" class="card-link">Linked-in</a>
-      <a href="https://github.com/redaProg-wq" class="card-link">Git-hub</a>
-    </div>
-  </div>
-    <p> 
-    Envie d'en savoir plus sur ce que je propose ? <br>
+        <div class="realisations">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./it'scoming.jpg"
+              class="card-img-top"
+              alt="ça arrive en anglais "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Réda Romain Mekouar Hypnothérapie</h5>
+              <p class="card-text">
+                L'interface web dédiée à mes services d'hypnothérapie
+              </p>
+              <a href="#" class="btn btn-dark btn-primary"
+                >En cours de réalisation</a
+              >
+            </div>
+          </div>
+        </div>
 
-  Demande d'informattions, de devis ou proposition de partenariat ? <br>
-  N'hesitez pas à me contacter ! 
- </p>
+        <div class="realisations">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./it'scoming.jpg"
+              class="card-img-top"
+              alt="ça arrive en anglais "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Greg Latinos</h5>
+              <p class="card-text">
+                L'interface web wordpress dédiée au groupe de musique
+                sud-americaine de l'artiste Greg
+              </p>
+              <a href="#" class="btn btn-dark btn-primary"
+                >En cours de réalisation</a
+              >
+            </div>
+          </div>
+        </div>
 
- <p> <h2>Mentions legales</h2></p>
-</div>
-</div>
+        <div class="realisations">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./it'scoming.jpg"
+              class="card-img-top"
+              alt="ça arrive en anglais "
+            />
+            <div class="card-body">
+              <h5 class="card-title">L.Parent Ingenieur pédagogique</h5>
+              <p class="card-text">
+                L'interface web dédiée à L.Parent, ingénieure pédagogique en
+                freelance
+              </p>
+              <a href="#" class="btn btn-dark btn-primary"
+                >En cours de réalisation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- html de la page recommandations et avis-->
+      <div class="container-fluid mainRecommandations">
+        <h1 id="titreRecommandations">Recommandations et avis</h1>
+
+        <div class="container-fluid recommandations">
+          <div class="card recommandation" style="width: 18rem">
+            <img
+              src="./it'scoming.jpg"
+              class="card-img-top"
+              alt="recommandation"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Les premières recommandations arriveront... Vite! Patience!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- html de la page contacts-->
+      <div class="container-fluid mainContacts">
+        <h1 id="titreContacts">Contacts et Demande de Devis</h1>
+        <div class="contactsContenu">
+          <div class="card carteContacts" style="width: 18rem">
+            <img
+              src="./Reda_Mekouar.jpg"
+              class="card-img-top"
+              alt="photo personelle"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Reda Romain Mekouar</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">mail : rdamekoua@gmail.com</li>
+              <li class="list-group-item">0606962667</li>
+            </ul>
+            <div class="card-body">
+              <a
+                href="https://www.linkedin.com/in/reda-romain-mekouar-7b5b86251/"
+                class="card-link"
+                >Linked-in</a
+              >
+              <a href="https://github.com/redaProg-wq" class="card-link"
+                >Git-hub</a
+              >
+            </div>
+          </div>
+          <p>
+            Envie d'en savoir plus sur ce que je propose ? <br />
+
+            Demande d'informattions, de devis ou proposition de partenariat ?
+            <br />
+            N'hesitez pas à me contacter !
+          </p>
+
+          <h2>Mentions legales</h2>
+        </div>
+      </div>
     </main>
   </body>
 </html>

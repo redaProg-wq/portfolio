@@ -51,14 +51,32 @@
   color: white;
 }
 
-/* Stylisation de la page formation*/
+/* Stylisation de la page Presentations*/
 
 .mainPresentations {
   background-image: url(./ordinateur_sympa.avif);
   background-size: cover;
-  height: 700px;
+  min-height: 700px;
+}
+#btn1 {
+  cursor: default;
+}
+#btn2 {
+  cursor: default;
 }
 
+#btn3 {
+  cursor: default;
+}
+#btn4 {
+  cursor: default;
+}
+#btn5 {
+  cursor: default;
+}
+#btn6 {
+  cursor: default;
+}
 .boutonsCompetences {
   padding-top: 5%;
   padding-left: 10%;
@@ -139,4 +157,5 @@
 
 .contactsContenu h2 {
   color: white;
+  margin-left: 5%;
 }
